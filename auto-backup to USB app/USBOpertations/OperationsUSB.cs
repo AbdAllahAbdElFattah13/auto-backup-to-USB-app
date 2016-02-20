@@ -8,12 +8,12 @@ using System.IO;
 
 namespace auto_backup_to_USB_app.USBOpertations
 {
-    class OperationsUSB_BaseClass
+    class OperationsUSB
     {
         static DriveInfo[] drives;
         static List<String> foldersToBackUp;
 
-        static OperationsUSB_BaseClass()
+        static OperationsUSB()
         {
             drives = DriveInfo.GetDrives();
             foldersToBackUp = new List<String>();

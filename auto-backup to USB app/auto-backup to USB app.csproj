@@ -53,9 +53,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="USBOpertations\OperationsUSB_BaseClass.cs" />
-    <Compile Include="USBOpertations\ReadFromUSB.cs" />
-    <Compile Include="USBOpertations\WriteToUSB.cs" />
+    <Compile Include="USBOpertations\OperationsUSB.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
